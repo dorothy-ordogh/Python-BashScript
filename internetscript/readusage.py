@@ -1,9 +1,9 @@
-#!/Users/dorothyordogh/anaconda/bin/python
+#!/Users/[user]/anaconda/bin/python
 
 import os
 
 def main():
-	with open('/Users/dorothyordogh/netusage.txt') as f:
+	with open('/Users/[user]/netusage.txt') as f:
 		for line in f:
 			if "Usage (Last 24 hours)" in line:
 				istart = line.find('G inbound')
