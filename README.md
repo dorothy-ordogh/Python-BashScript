@@ -5,4 +5,6 @@ In residence at UBC, they monitor our web usage, capping each student at 7GB. If
 
 UBC respectfully provides a web page that informs you of your usage (which they check every ~15 minutes). What I did was downloaded the web page, extracted the inbound GB usage, and if it is under 6.70GB do nothing, but if it is at or above 6.70GB, show a pop up window that warns me of my usage. Using crontab, I scheduled this script to run every 20 minutes. 
 
+Most of the functionality is in the python script for 2 reasons. 1) I know python better than bash, and 2) bash doesn't deal well with floats, so I thought it best to just write everything in python rather than using awk or bc. 
+
 Feel free to use the script. If you do though, please note that this can only run on OS X systems, and please remember to change the paths to the executables. 
