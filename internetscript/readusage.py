@@ -3,11 +3,7 @@
 import os
 
 def main():
-<<<<<<< Updated upstream
-	with open('/Users/[user]/netusage.txt') as f:
-=======
 	with open('/Users/dorothyordogh/usage.txt') as f:
->>>>>>> Stashed changes
 		for line in f:
 			if "Usage (Last 24 hours)" in line:
 				iend = line.find('G inbound')
