@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link href="/__shared/templates/css/clf-required-fixedwidth.css" type="text/css" media="screen" rel="Stylesheet" />
+<link href="/__shared/templates/css/clf-typography.css" type="text/css" media="screen" rel="Stylesheet" />
+<link href="/__shared/templates/css/clf-optional.css" type="text/css" media="screen" rel="Stylesheet" />
+<link href="/__shared/templates/css/clf-2-column.css" type="text/css" media="screen" rel="Stylesheet" />
+<link href="/__shared/templates/css/itsm.css" type="text/css" media="screen" rel="Stylesheet" />
+</head>
+<body id="thebody" style="font-size:.67em; line-height:1.5em; padding:.5em 1em; background-color:#ffffff;">
+<h2>My ResNet Status</h2>
+
+<p><strong>IP address:</strong></br>128.189.176.48</p>
+<p><strong>Usage (Last 24 hours):</strong></br>2.41G inbound, 70.45M outbound</p>
+<p><strong>Current Status:</strong></br>Your IP address is not currently in the ResNet Penalty Box.</p>
+<p><strong>Last Updated:</strong></br>20-Oct-2014 06:22 PM</p>
+<p><a href="http://www.it.ubc.ca/internet/resnet/penaltybox.html" target="_blank">Learn more about the Penalty Box</a></p>
+ <br /><br /><br />
+</body>
+</html>
