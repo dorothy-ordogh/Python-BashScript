@@ -8,3 +8,7 @@ UBC respectfully provides a web page that informs you of your usage (which they 
 Most of the functionality is in the python script for 2 reasons. 1) I know python better than bash, and 2) bash doesn't deal well with floats, so I thought it best to just write everything in python rather than using awk or bc. 
 
 Feel free to use the script. If you do though, please note that this can only run on OS X systems, and please remember to change the paths to the executables. 
+
+The file called usage is what UBCs usage html page looks like.
+
+
