@@ -3,12 +3,19 @@
 import os
 
 def main():
+<<<<<<< Updated upstream
 	with open('/Users/[user]/netusage.txt') as f:
+=======
+	with open('/Users/dorothyordogh/usage.txt') as f:
+>>>>>>> Stashed changes
 		for line in f:
 			if "Usage (Last 24 hours)" in line:
-				istart = line.find('G inbound')
-				numstring = istart - 4
+				iend = line.find('G inbound')
+				istart = iend -4
+				print(istart)
+				numstring = line[istart:iend]
 				num = float(numstring)
+				print(num)
 				if num >= 6.70:
 					cmd = """osascript -e 'tell app "Finder" to display dialog "If you watch any more Netflix, you are going to be put in INTERNET JAIL!!"'"""
 					os.system(cmd)
