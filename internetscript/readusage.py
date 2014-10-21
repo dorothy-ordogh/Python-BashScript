@@ -3,7 +3,7 @@
 import os
 
 def main():
-	with open('/Users/dorothyordogh/usage.txt') as f:
+	with open('/Users/[user]/usage.txt') as f:
 		for line in f:
 			if "Usage (Last 24 hours)" in line:
 				iend = line.find('G inbound')
