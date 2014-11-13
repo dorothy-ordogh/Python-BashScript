@@ -9,6 +9,6 @@ Most of the functionality is in the python script for 2 reasons. 1) I know pytho
 
 Feel free to use the script. If you do though, please note that this can only run on OS X systems, and please remember to change the paths to the executables. 
 
-The file called usage is what UBCs usage html page looks like.
+The file called "usage" is what UBC's internet usage html page looks like.
 
 
